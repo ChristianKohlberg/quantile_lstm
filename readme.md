@@ -4,7 +4,7 @@ make sure to have all packages properly installed. You can invoke the keras back
 ### Usage
 the code is taken from: http://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html
 
-The model has been given a custom loss function for quantile regression.
+The model has been given a custom loss function for quantile regression (pinball loss function as approximation to be exactly).
 
 It was designed as a proof of concept of implementing asymmetric cost functions in lstm models.
 
